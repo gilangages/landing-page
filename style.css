@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px 140px;
+}
+
+header div {
+  color: #f9f9f9;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+
+#hero {
+  background-color: #1f2937;
+  display: flex;
+  gap: 60px;
+  padding: 32px 140px;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#hero p {
+  color: #e5e7eb;
+}
+
+#hero button {
+  border: none;
+  padding: 4px 20px;
+  margin-top: 12px;
+  color: #e5e7eb;
+  font-weight: 600;
+  background-color: #3882f6;
+  border-radius: 4px;
+}
+
+#information {
+  padding: 48px;
+}
+#information h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+#information .cards {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#information .cards .card img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+#information .cards .card {
+  width: 120px;
+}
+
+#information .cards .card p {
+  text-align: center;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  padding: 48px 140px;
+}
+
+blockquote {
+  color: #1f2927;
+  font-weight: 300;
+}
+#quote .author {
+  display: flex;
+  padding: 12px;
+  justify-content: flex-end;
+}
+
+#qta {
+  padding: 40px;
+}
+#qta .card {
+  background-color: #3882f6;
+  padding: 14px 48px;
+  display: flex;
+  gap: 48px;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+
+#qta .card .left {
+  color: #e5e7eb;
+}
+
+#qta .card .left h4 {
+  color: #f9faf8;
+}
+
+#qta .card .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+}
+
+#qta .card .right button {
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100%;
+  padding: 4px 8px;
+
+  background-color: #3882f6;
+}
+
+footer {
+  background-color: #1f2927;
+  padding: 16px;
+  color: #e5e7eb;
+  font-weight: 300;
+  font-size: 10px;
+  text-align: center;
+}
